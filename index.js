@@ -1,0 +1,1 @@
+document.body.innerHTML = document.body.innerHTML.replace(/VIETSKY TOURIST/g, "VSK TRAVEL & GUIDE");
