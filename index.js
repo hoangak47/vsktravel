@@ -1,7 +1,7 @@
 function replaceTextInDOM(node) {
   if (node.nodeType === Node.TEXT_NODE) {
     node.nodeValue = node.nodeValue.replace(
-      /VIETSKY TOURIST/g,
+      /VIETSKY TOURIST/gi,
       "VSK TRAVEL & GUIDE"
     );
   } else {
